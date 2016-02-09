@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTT.Web", "TTT.Web\TTT.Web.csproj", "{D67AB995-9F5A-4763-B99B-E09BB5959EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTT.Web.Tests", "TTT.Web.Tests\TTT.Web.Tests.csproj", "{61657C90-B243-4139-B81B-FDC565A89553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D67AB995-9F5A-4763-B99B-E09BB5959EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67AB995-9F5A-4763-B99B-E09BB5959EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67AB995-9F5A-4763-B99B-E09BB5959EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67AB995-9F5A-4763-B99B-E09BB5959EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61657C90-B243-4139-B81B-FDC565A89553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61657C90-B243-4139-B81B-FDC565A89553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61657C90-B243-4139-B81B-FDC565A89553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61657C90-B243-4139-B81B-FDC565A89553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

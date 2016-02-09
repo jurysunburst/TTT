@@ -1,0 +1,22 @@
+﻿<div id="wrapper">
+  <div id="container">
+    <div class="ttt-box">
+      <div ng-repeat="move in board.Moves track by $index" class="cell" ng-click="send($index)">
+        <div ng-class="{'cross': move == 1, 'zero': move == 2}"></div>
+      </div>
+    </div>
+    <div class="btn-holder" ng-show="board.Status==0">
+      <button class="btn dark" ng-click="clear()">Start new game</button>
+    </div>
+  </div>
+</div>
+<div class="popup" ng-show="board.Status!=0">
+  <div class="overlay"></div>
+  <div class="center" ng-class="popupStatus()">
+    <div class="text">
+      <h3>{{message.header}}</h3>
+      <p>{{message.body}}</p>
+      <button class="btn" ng-click="clear()">Try again</button>
+    </div>
+  </div>
+</div>

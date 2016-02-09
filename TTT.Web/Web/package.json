@@ -1,0 +1,22 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "TicTacToe Tests",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-jasmine": "^0.3.7"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^0.2.2"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "y.a",
+  "license": "ISC"
+}
